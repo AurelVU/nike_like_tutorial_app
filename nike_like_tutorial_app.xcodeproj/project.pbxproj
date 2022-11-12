@@ -13,11 +13,11 @@
 		7E1B1E8B2916FCD4005AD926 /* nike_like_tutorial_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B1E8A2916FCD4005AD926 /* nike_like_tutorial_appTests.swift */; };
 		7E1B1E952916FCD4005AD926 /* nike_like_tutorial_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B1E942916FCD4005AD926 /* nike_like_tutorial_appUITests.swift */; };
 		7E1B1E972916FCD4005AD926 /* nike_like_tutorial_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B1E962916FCD4005AD926 /* nike_like_tutorial_appUITestsLaunchTests.swift */; };
-		7E1B1EA72916FD05005AD926 /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B1EA32916FD05005AD926 /* ImageSlider.swift */; };
-		7E1B1EA82916FD05005AD926 /* ProductPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B1EA42916FD05005AD926 /* ProductPageView.swift */; };
-		7E1B1EA92916FD05005AD926 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B1EA52916FD05005AD926 /* ContentView.swift */; };
-		7E1B1EAA2916FD05005AD926 /* CustomTabIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B1EA62916FD05005AD926 /* CustomTabIndicator.swift */; };
 		7E1B1EAC29170014005AD926 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1B1EAB29170014005AD926 /* Launch Screen.storyboard */; };
+		7E58267E291E95BF0025EA1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58267D291E95BF0025EA1A /* ContentView.swift */; };
+		7E582680291E95D10025EA1A /* CustomTabIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58267F291E95D10025EA1A /* CustomTabIndicator.swift */; };
+		7E582682291E95E30025EA1A /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E582681291E95E30025EA1A /* ImageSlider.swift */; };
+		7E582684291E95F10025EA1A /* ProductPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E582683291E95F10025EA1A /* ProductPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +48,11 @@
 		7E1B1E902916FCD4005AD926 /* nike_like_tutorial_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nike_like_tutorial_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1B1E942916FCD4005AD926 /* nike_like_tutorial_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nike_like_tutorial_appUITests.swift; sourceTree = "<group>"; };
 		7E1B1E962916FCD4005AD926 /* nike_like_tutorial_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nike_like_tutorial_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7E1B1EA32916FD05005AD926 /* ImageSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageSlider.swift; path = ../../nike_like_tutorial_app2/nike_like_tutorial_app/ImageSlider.swift; sourceTree = "<group>"; };
-		7E1B1EA42916FD05005AD926 /* ProductPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductPageView.swift; path = ../../nike_like_tutorial_app2/nike_like_tutorial_app/ProductPageView.swift; sourceTree = "<group>"; };
-		7E1B1EA52916FD05005AD926 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../nike_like_tutorial_app2/nike_like_tutorial_app/ContentView.swift; sourceTree = "<group>"; };
-		7E1B1EA62916FD05005AD926 /* CustomTabIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabIndicator.swift; path = ../../nike_like_tutorial_app2/nike_like_tutorial_app/CustomTabIndicator.swift; sourceTree = "<group>"; };
 		7E1B1EAB29170014005AD926 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7E58267D291E95BF0025EA1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E58267F291E95D10025EA1A /* CustomTabIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabIndicator.swift; sourceTree = "<group>"; };
+		7E582681291E95E30025EA1A /* ImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlider.swift; sourceTree = "<group>"; };
+		7E582683291E95F10025EA1A /* ProductPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +103,15 @@
 		7E1B1E772916FCD3005AD926 /* nike_like_tutorial_app */ = {
 			isa = PBXGroup;
 			children = (
-				7E1B1EA52916FD05005AD926 /* ContentView.swift */,
-				7E1B1EA62916FD05005AD926 /* CustomTabIndicator.swift */,
-				7E1B1EA32916FD05005AD926 /* ImageSlider.swift */,
-				7E1B1EA42916FD05005AD926 /* ProductPageView.swift */,
 				7E1B1E782916FCD3005AD926 /* nike_like_tutorial_appApp.swift */,
 				7E1B1E7C2916FCD4005AD926 /* Assets.xcassets */,
 				7E1B1E7E2916FCD4005AD926 /* nike_like_tutorial_app.entitlements */,
 				7E1B1E7F2916FCD4005AD926 /* Preview Content */,
 				7E1B1EAB29170014005AD926 /* Launch Screen.storyboard */,
+				7E58267D291E95BF0025EA1A /* ContentView.swift */,
+				7E58267F291E95D10025EA1A /* CustomTabIndicator.swift */,
+				7E582681291E95E30025EA1A /* ImageSlider.swift */,
+				7E582683291E95F10025EA1A /* ProductPageView.swift */,
 			);
 			path = nike_like_tutorial_app;
 			sourceTree = "<group>";
@@ -272,11 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E1B1EA92916FD05005AD926 /* ContentView.swift in Sources */,
-				7E1B1EA82916FD05005AD926 /* ProductPageView.swift in Sources */,
+				7E582682291E95E30025EA1A /* ImageSlider.swift in Sources */,
+				7E58267E291E95BF0025EA1A /* ContentView.swift in Sources */,
 				7E1B1E792916FCD3005AD926 /* nike_like_tutorial_appApp.swift in Sources */,
-				7E1B1EAA2916FD05005AD926 /* CustomTabIndicator.swift in Sources */,
-				7E1B1EA72916FD05005AD926 /* ImageSlider.swift in Sources */,
+				7E582680291E95D10025EA1A /* CustomTabIndicator.swift in Sources */,
+				7E582684291E95F10025EA1A /* ProductPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
