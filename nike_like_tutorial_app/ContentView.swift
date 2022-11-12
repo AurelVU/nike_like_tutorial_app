@@ -12,28 +12,28 @@ struct ContentView: View {
         TabView {
                 ProductPageView()
                 .tabItem {
-                    Image("home").renderingMode(.template)
+                    Image("home")
                     Text("Home")
                 }
                 ProductPageView()
                 .tabItem {
-                    Image("search").renderingMode(.template)
+                    Image("search")
                     Text("Shop")
                 }
                 ProductPageView()
                 .tabItem {
-                    Image("like").renderingMode(.template)
+                    Image("like")
                     Text("Favorites")
                 }
                 ProductPageView()
                 .tabItem {
-                    Image("basket").renderingMode(.template)
+                    Image("basket")
                     Text("Bag")
                     
                 }
                 ProductPageView()
                 .tabItem {
-                    Image("profile").renderingMode(.template)
+                    Image("profile")
                     Text("Profile")
                 }
         }
